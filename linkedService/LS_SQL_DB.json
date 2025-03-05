@@ -1,0 +1,17 @@
+{
+	"name": "LS_SQL_DB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "depracticeserverkt.database.windows.net",
+			"database": "depracticedb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "karthikhaa",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEZEM0IzODM1LTdGMzAtNDM1My05NzI4LTY5RDNERDZGOEVDOV8zMWNkM2ZjZi1jYTg5LTQzOWQtOTVkNy00MjJmYjkwNmZiZTIiDQp9"
+		}
+	}
+}

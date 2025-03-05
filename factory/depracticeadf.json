@@ -1,0 +1,9 @@
+{
+	"name": "depracticeadf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b1bc02f3-dc3e-4e11-848a-d1a581920365",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}
