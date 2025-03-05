@@ -2,7 +2,7 @@
 	"name": "blobIp",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_BLOB_CONTAINER",
+			"referenceName": "blobexcel",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "stores.csv",
+				"fileName": "retail_sales_dataset.xlsx",
 				"container": "blobcontainer"
 			},
 			"columnDelimiter": ",",

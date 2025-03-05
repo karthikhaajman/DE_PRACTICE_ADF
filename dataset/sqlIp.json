@@ -5,6 +5,12 @@
 			"referenceName": "LS_SQL_DB",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"tablename": {
+				"type": "String",
+				"defaultValue": "\"\""
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
@@ -24,7 +30,10 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "storetable"
+			"table": {
+				"value": "@dataset().tablename",
+				"type": "Expression"
+			}
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
